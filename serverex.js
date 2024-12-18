@@ -4,13 +4,13 @@ let arr = [
     { id: 1, name: "necklace", price: 5000 },
     { id: 2, name: "earing", price: 1150 },
     { id: 4, name: "braclates", price: 4000 },
+    { id: 5, name: "ring", price: 1500 }
 ]
 
 const app = express();
 app.use(express.json())//הרבה פעמים נראה במקום השרוה הזאת app.use(bodyParser())
 //http://localhost:8070/jewelry
 app.get("/jewelry", (req, res) => {
-
     res.json(arr);
 
 })
