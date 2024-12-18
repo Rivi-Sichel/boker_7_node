@@ -54,6 +54,6 @@ app.put("/jewelry/:id", (req, res) => {
 })
 
 
-app.listen(8070, "localhost", () => {
+app.listen(8070, () => {
     console.log("app is runnig on port 8070")
 })
