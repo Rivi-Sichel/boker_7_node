@@ -3,7 +3,7 @@ const express = require("express");
 let arr = [
     { id: 1, name: "necklace", price: 5000 },
     { id: 2, name: "earing", price: 1150 },
-    { id: 4, name: "braclates", price: 4000 },
+    { id: 4, name: "braclates", price: 3000 },
     { id: 5, name: "ring", price: 1500 }
 ]
 
